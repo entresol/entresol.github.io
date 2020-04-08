@@ -52,7 +52,7 @@ function startParagraphAnimation (index) {
 	console.log(index);
 	console.log("paragraph no " +  index + " fade start.");
 	
-	var dur = 1000 + index*1000;
+	var dur = 1500 + index*1500;
 	var par = paragraphs[index];
 	
 	window.setTimeout( function(index) {
